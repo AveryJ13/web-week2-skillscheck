@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navBar{
+    color: white;
+    background: gray;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.menuWords{
+    margin-left: 10px;
+}
+
+.blackBox{
+    background: black;
+    color: yellow;
+    height: 350px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+.middleSection-blueBox{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    height: 350px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.greenBox{
+    height: 250px;
+    width: 250px;
+    background: lightgreen;
+    border-radius: 15px 30px 15px 30px
+    
+}
+
+.middleSection-orangeBox{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: stretch;
+    height: 350px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.orangeBox{
+    background: rgb(184, 145, 93);
+    height: 250px;
+    width: 500px;
+}
+
+.middleSectionInfo{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+
+.text{
+    height: 150px;
+    width: 300px;
+    margin-left: 30px;
+}
+
+.pic{
+    height: 150px;
+    margin-left: 900px;
+}
+
+.bottomBar{
+    height: 150px;
+    background: rgb(38, 32, 66);
+    margin-top: 100px;
+}
